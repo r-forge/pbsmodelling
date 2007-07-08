@@ -45,7 +45,7 @@ echo $contents; } ?>
 
 <p> Hello World </p>
 
-<p> I am now in the process of merging code over to r-forge (here). <br/>-Alex</p>
+<p> Code has now been moved over here - let's try setting up other developers. <br/>-Alex</p>
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 
