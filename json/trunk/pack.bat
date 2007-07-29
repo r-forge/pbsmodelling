@@ -1,0 +1,12 @@
+@ECHO OFF
+if not defined PBS_SETLOCAL (
+  SETLOCAL
+  SET PBS_SETLOCAL=1 )
+
+SET PBS_NO_PAUSE=1
+call checkPaths.bat
+
+if not defined PBSERROR (
+  Rcmd build rjson )
+
+:end
