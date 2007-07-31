@@ -1,3 +1,3 @@
 .First.lib <- function(lib, pkg) {
-  cat("JSON for R!\n")
+  #cat("JSON for R\n")
 }
